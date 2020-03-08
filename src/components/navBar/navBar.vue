@@ -108,9 +108,9 @@
               <li class="item"><a href="#">周边</a></li>
               <li class="item">
                 <a href="#">移动端</a>
-                <!-- <div class="header-app header-hover">
+                <div class="header-app header-hover">
                   <i></i>
-                </div> -->
+                </div>
                 </li>
             </ul>
           </div><!--header_top_nav-END-->
