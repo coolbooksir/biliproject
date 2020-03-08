@@ -1,0 +1,207 @@
+#nav{
+  position: relative;
+  z-index: 998;
+  width: 999px;
+}
+.nav-list {
+  float: left;
+  height: 38px;
+  padding: 12px 0;
+}
+.nav-list .item {
+  position: relative;
+  float: left;
+  padding: 0 11px 10px;
+}
+.nav-list .link {
+  position: relative;
+  padding-top: 22px;
+  font-size: 14px;
+}
+.nav-list .link:hover {
+  color: #00a1d6;
+}
+.nav-list .num {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 100%;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #fff;
+  background-color: #ffafc9;
+  border-radius: 4px;
+  font-size: 11px;
+}
+.nav-list .num i {
+  display: block;
+  padding: 1px 3px;
+  line-height: 12px;
+  text-align: center;
+  font-family: Calibri,Arial,Helvetica,sans-serifsans-serif;
+}
+.nav-list .item-home {
+  padding-left: 0;
+}
+.nav-list .item-home .link  {
+  background: url(../../image/page_icons.png) no-repeat -658px -1176px;
+}
+.nav-list .item-square {
+  padding: 0;
+  padding-left: 13px;
+  padding-bottom: 6px;
+}
+.nav-list .item-live {
+  padding: 0;
+  padding-bottom: 16px;
+  margin-left: 27px;
+}
+.nav-list .item-room {
+  padding: 0;
+  padding-left: 24px;
+}
+.nav-list .item-square .link,
+.nav-list .item-live .link,
+.nav-list .item-room .link {
+  padding: 0;
+  padding-left: 22px;
+  line-height: 38px;
+  font-size: 16px;
+  background: url(../../image/page_icons.png) no-repeat;
+}
+.nav-list .item-square .link {
+  background-position: -663px -910px;
+}
+.nav-list .item-live .link {
+  background-position: -664px -524px;
+}
+.nav-list .item-room .link {
+  background-position: -727px -524px;
+}
+.nav-gif {
+  float: right;
+  padding-top: 4px;
+}
+.nav-item__hover {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 43px;
+  box-shadow: rgba(0,0,0,0.16) 0 2px 4px;
+  border-radius: 0 0 4px 4px;
+  background-color: #fff;
+}
+.nav-list .item:hover .nav-item__hover {
+  display: block;
+}
+.nav-item__hover li {
+  overflow: hidden;
+  position: relative;
+  min-width: 120px;
+  height: 30px;
+
+  transition: all .2s;
+}
+.nav-item__hover li:hover {
+  background-color: #e5e9ef;
+}
+.nav-item__hover li a {
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  padding: 0 25px;
+  line-height: 30px;
+  background: url(../../image/page_icons2.png) no-repeat 12px -1613px;
+
+  transition: all .2s;
+}
+.nav-item__hover li:hover a {
+  left: 5px;
+}
+.nav-item__hover li em {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  white-space: nowrap;
+}
+.nav-item__hover li i {
+  position: absolute;
+  top: 0;
+  right: -100px;
+  width: 4px;
+  height: 30px;
+  background: url(../../image/page_icons2.png) no-repeat -1px -1576px;
+  opacity: 0;
+
+  transition: all .2s;
+}
+.nav-item__hover li:hover i {
+  right: -10px;
+  opacity: 1;
+}
+.nav-square__hover {
+  display: none;
+  position: absolute;
+  top: 43px;
+  left: 0;
+  width: 386px;
+  height: 228px;
+  box-shadow: rgba(0,0,0,0.16) 0 2px 4px;
+  background-color: #fff;
+}
+.nav-list .item-square:hover .nav-square__hover {
+  display: block;
+}
+.nav-square__hover ul {
+  margin-top: 20px;
+  width: 107px;
+  height: 188px;
+  border-right: 1px solid #e5e9ef;
+}
+.nav-square__hover li {
+  overflow: hidden;
+  width: 100%;
+  height: 24px;
+  margin-bottom: 8px;
+}
+.nav-square__hover li:hover {
+  background-color: #e5e9ef;
+}
+.nav-square__hover li a {
+  position: relative;
+  left: 0;
+  line-height: 24px;
+
+  transition: left .2s;
+}
+.nav-square__hover li:hover a {
+  left: 5px;
+}
+.nav-square__hover li i {
+  display: inline-block;
+  width: 42px;
+  height: 24px;
+  vertical-align: top;
+  background: url(../../image/page_icons.png) no-repeat;
+}
+.nav-square__hover li i.icon-activity {
+  background-position: -262px -1173px;
+}
+.nav-square__hover li i.icon-game {
+  background-position: -262px -1235px;
+}
+.nav-square__hover li i.icon-news {
+  background-position: -326px -1172px;
+}
+.nav-square__hover li i.icon-friend {
+  background-position: -262px -1364px;
+}
+.nav-square__hover li i.icon-tv {
+  background-position: -262px -1427px;
+}
+.nav-square__hover .activity {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
